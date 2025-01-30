@@ -1,0 +1,41 @@
+# Archivos y carpetas comunes de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Archivos de configuración del entorno de desarrollo
+.idea/
+.vscode/
+*.swp
+
+# Archivos de salida
+*.log
+*.bak
+*.tmp
+
+# Archivos de dependencias de Python (si usas pipenv o conda)
+Pipfile.lock
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Archivos de base de datos
+*.sqlite3
+*.db
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+### Archivos power point ####
+*.pptx
