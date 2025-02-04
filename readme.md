@@ -17,3 +17,4 @@
 - [SEDMA CDMX - Información sobre calidad del aire](https://sedema.cdmx.gob.mx/storage/app/uploads/public/65b/28b/0ce/65b28b0cea8c4291991117.pdf)
 - [Aire Nuevo León - Mapas de calidad del aire](http://aire.nl.gob.mx/icars2020/map_calidad_icars.php)
 - [SINAICA - Sistema Nacional de Información de la Calidad del Aire](https://sinaica.inecc.gob.mx/)
+- - [Normatividad](https://transparencia.cofepris.gob.mx/index.php/es/marco-juridico/normas-oficiales-mexicanas/calidad-del-aire)
