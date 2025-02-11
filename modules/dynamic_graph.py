@@ -1,6 +1,6 @@
 import plotly.express as px
 
-def generar_grafico(data, metrica, estacion, numero_mes):
+def generar_grafico(data, metrica, estacion, numero_mes, año):
     """
     Función para generar un gráfico de un contaminante para un mes específico y estacion
     
@@ -11,11 +11,11 @@ def generar_grafico(data, metrica, estacion, numero_mes):
     """
     
     estaciones = {
-    'CDMX_CCA2023': 'CDMX, Centro de Ciencias de la Atmosfera',
-    'CDMX_UAMI2023': 'CDMX, UAMI 2023',
-    'NL_Cadereyta2024': 'Nuevo León, Cadereyta 2024',
-    'NL_Juarez2024': 'Nuevo León, Juárez 2024',
-    'NL_universidad2024': 'Nuevo León, Universidad 2024'
+    'CDMX_CCA23-24': 'CDMX, Centro de Ciencias de la Atmosfera',
+    'CDMX_UAMI23-24': 'CDMX, UAMI 2023',
+    'NL_Cadereyta23-24': 'Nuevo León, Cadereyta 2023 - 2024',
+    'NL_Juarez23-24': 'Nuevo León, Juárez 2023 - 2024',
+    'NL_Universidad23-24': 'Nuevo León, Universidad 2024 - 2024'
 }
     metrica = metrica.upper()
     metricas = {'PM10': 'PM10', 'PM25': 'PM25', 'Ozono': 'O3', 'Dioxido_azufre': 'SO2', 'Dioxido_nitrógeno': 'NO2', 'Monoxido_carbono': 'CO'}
